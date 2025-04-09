@@ -178,8 +178,8 @@ fun ItemScreen(navController: NavController){
             Spacer(modifier = Modifier.height(10.dp))
             Row (modifier = Modifier.padding(20.dp)){
                 Image(
-                    painter = painterResource(R.drawable.shoe),
-                    contentDescription = "dress",
+                    painter = painterResource(R.drawable.bshoe),
+                    contentDescription = "babyshoe",
                     modifier = Modifier
                         .width(150.dp)
                         .height(150.dp)
@@ -189,16 +189,16 @@ fun ItemScreen(navController: NavController){
                 Spacer(modifier = Modifier.width(10.dp))
                 Column {
                     Text(
-                        text = "Men's shoes",
+                        text = "Baby shoes",
                         fontSize = 20.sp,
                         fontWeight = FontWeight.Bold
                     )
                     Text(
-                        text = "Ksh.5500",
+                        text = "Ksh.800",
                         fontSize = 15.sp,textDecoration = TextDecoration.LineThrough
                     )
                     Text(
-                        text = "Price : Ksh.4500",
+                        text = "Price : Ksh.650",
                         fontSize = 15.sp,
                     )
                     Row {
@@ -228,8 +228,8 @@ fun ItemScreen(navController: NavController){
             //Row
             Row (modifier = Modifier.padding(20.dp)){
                 Image(
-                    painter = painterResource(R.drawable.shoe),
-                    contentDescription = "dress",
+                    painter = painterResource(R.drawable.women),
+                    contentDescription = "women shoes",
                     modifier = Modifier
                         .width(150.dp)
                         .height(150.dp)
@@ -239,17 +239,17 @@ fun ItemScreen(navController: NavController){
                 Spacer(modifier = Modifier.width(10.dp))
                 Column {
                     Text(
-                        text = "Men's shoes",
+                        text = "Women shoes",
                         fontSize = 20.sp,
                         fontWeight = FontWeight.Bold
                     )
                     Text(
-                        text = "Ksh.5500",
+                        text = "Ksh.2000",
                         fontSize = 15.sp,
                         textDecoration = TextDecoration.LineThrough
                     )
                     Text(
-                        text = "Price : Ksh.4500",
+                        text = "Price : Ksh.1500",
                         fontSize = 15.sp,
                     )
                     Row {
@@ -279,8 +279,8 @@ fun ItemScreen(navController: NavController){
             //Row
             Row (modifier = Modifier.padding(20.dp)){
                 Image(
-                    painter = painterResource(R.drawable.shoe),
-                    contentDescription = "dress",
+                    painter = painterResource(R.drawable.sneaker),
+                    contentDescription = "sneaker",
                     modifier = Modifier
                         .width(150.dp)
                         .height(150.dp)
@@ -290,17 +290,17 @@ fun ItemScreen(navController: NavController){
                 Spacer(modifier = Modifier.width(10.dp))
                 Column {
                     Text(
-                        text = "Men's shoes",
+                        text = "Trainer Sneakers",
                         fontSize = 20.sp,
                         fontWeight = FontWeight.Bold
                     )
                     Text(
-                        text = "Ksh.5500",
+                        text = "Ksh.3500",
                         fontSize = 15.sp,
                         textDecoration = TextDecoration.LineThrough
                     )
                     Text(
-                        text = "Price : Ksh.4500",
+                        text = "Price : Ksh 2800",
                         fontSize = 15.sp,
                     )
                     Row {
@@ -330,8 +330,8 @@ fun ItemScreen(navController: NavController){
             //Row
             Row (modifier = Modifier.padding(20.dp)){
                 Image(
-                    painter = painterResource(R.drawable.shoe),
-                    contentDescription = "dress",
+                    painter = painterResource(R.drawable.jordan),
+                    contentDescription = "jordan",
                     modifier = Modifier
                         .width(150.dp)
                         .height(150.dp)
@@ -341,17 +341,17 @@ fun ItemScreen(navController: NavController){
                 Spacer(modifier = Modifier.width(10.dp))
                 Column {
                     Text(
-                        text = "Men's shoes",
+                        text = "Air Jordan14",
                         fontSize = 20.sp,
                         fontWeight = FontWeight.Bold
                     )
                     Text(
-                        text = "Ksh.5500",
+                        text = "Ksh.2800",
                         fontSize = 15.sp,
                         textDecoration = TextDecoration.LineThrough
                     )
                     Text(
-                        text = "Price : Ksh.4500",
+                        text = "Price : Ksh.2000",
                         fontSize = 15.sp,
                     )
                     Row {
