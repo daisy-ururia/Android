@@ -121,7 +121,6 @@ fun ItemScreen(navController: NavController){
 
         Column (modifier = Modifier.verticalScroll(rememberScrollState())){
             //Row
-            //Row
             Row (modifier = Modifier.padding(20.dp)){
                 Image(
                     painter = painterResource(R.drawable.shoe),
